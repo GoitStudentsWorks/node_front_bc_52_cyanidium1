@@ -10,7 +10,7 @@ import { persistor, store } from './redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/node_front_bc_52_cyanidium1">
+  <BrowserRouter basename="/node_front_bc_54_cyanidium1">
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         {/* <Container> */}
